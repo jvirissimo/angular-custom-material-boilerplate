@@ -1,0 +1,27 @@
+:host {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+
+  app-header{
+    grid-area: header;
+  }
+
+  app-sidebar{
+    grid-area: sidebar;
+  }
+
+  main{
+    grid-area: main;
+  }
+
+  app-footer{
+    grid-area: footer;
+  }
+  
+  grid-template-areas:
+  "header header"
+  "sidebar main"
+  "footer footer";
+}

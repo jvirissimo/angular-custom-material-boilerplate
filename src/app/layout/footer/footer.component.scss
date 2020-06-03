@@ -1,0 +1,28 @@
+:host{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1A385C;
+  padding: 6px;
+  font-size: 0.8rem;
+  background: white;
+  border-top: 1px solid #1A385C;
+
+  nav{
+
+    ul{
+      li{
+        a{
+          color: #1A385C;
+        }
+      }
+    }
+  }
+
+  a.logo{
+    color: #1A385C;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 10px;
+  }
+}

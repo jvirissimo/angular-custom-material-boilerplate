@@ -1,0 +1,62 @@
+:host{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  background: white;
+  box-shadow: 0 6px 6px -6px rgba(0,0,0,0.4);
+
+  a.logo{
+    color: #FF5E12;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 0 8px 0 44px;
+  }
+
+  h1{
+    color: #1A385C;
+    font-size: 0.9rem;
+  }
+
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #D8D4D3;
+    flex-grow: 1;
+    margin: 0 80px;
+
+    input[type="search"]{
+      border: none;
+      flex-grow: 1;
+    }
+
+    input[type="submit"]{
+      border: none;
+      height: 20px;
+      width: 20px;
+      color: white;
+      cursor: pointer;
+      background: #FF5E12;
+      border-radius: 3px;
+    }
+  }
+
+  nav{
+    padding: 4px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    border: 1px solid #1A385C;
+
+    ul{
+      li{
+        a{
+          color: #1A385C;
+        }
+      }
+    }
+  }
+}

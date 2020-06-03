@@ -1,0 +1,29 @@
+:host{
+  display: inline-block;
+  background: #1A385C;
+  width: 200px;
+
+  nav{
+    ul{
+      list-style-type: none;
+      margin-top: 20px;
+
+      li{
+        cursor: pointer;
+        padding: 8px 0 8px 40px;
+        border-left: 3px solid #1A385C;
+
+        &:hover{
+          background: #20487A;
+          border-left: 3px solid #FF5E12;
+        }
+        
+        a{
+          color: white;
+          font-size: 0.8.75rem;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

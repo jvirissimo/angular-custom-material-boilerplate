@@ -36,7 +36,7 @@ import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, MatSliderModule ],
+  imports:      [ BrowserModule, FormsModule, MatFormFieldModule, MatInputModule, MatSliderModule ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })

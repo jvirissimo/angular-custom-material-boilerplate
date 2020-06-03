@@ -1,5 +1,10 @@
-<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+<!-- <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
 
 <mat-form-field>
   <input type="text" matInput name="firstName" placeholder="First Name" />
-</mat-form-field>
+</mat-form-field> -->
+
+<app-header *ngIf="showHeader"></app-header>
+<app-sidebar *ngIf="showSidebar"></app-sidebar>
+<main><router-outlet></router-outlet></main>
+<app-footer *ngIf="showFooter"></app-footer>
